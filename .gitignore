@@ -118,9 +118,3 @@ dist
 .pnp.*
 
 .DS_store
-
-# build files
-/build
-/types
-.adminjs
-example-app/.adminjs
