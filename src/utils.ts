@@ -21,7 +21,7 @@ export const saveRecords = async (
   return Promise.all(
     records.map(async record => {
       try {
-        await resource.delete(record.id);
+        await resource.delete(record._id);
         return await resource.create(record);
       } catch (e) {
         console.error(e);
