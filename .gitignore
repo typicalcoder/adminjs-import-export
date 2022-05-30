@@ -121,7 +121,6 @@ dist
 
 # build files
 /build
-/lib
 /types
 .adminjs
 example-app/.adminjs
